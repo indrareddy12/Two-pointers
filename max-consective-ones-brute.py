@@ -2,7 +2,7 @@ class Solution:
     # Function to find longest subarray with at most k zero flips
     def longestOnes(self, nums, k):
         # Variable to store max length
-        max_len = 0
+        max_len = 0 
 
         # Loop over all possible start indices
         for i in range(len(nums)):
